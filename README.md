@@ -22,7 +22,7 @@ const maria = {
 
 ## Welcome to my Github profile
 
-I am a mechatronics engineering student with a passion for data analysis and automation. 
+I am a mechatronics engineering student with a passion for data science, AI and automation. 
 
 
 - :woman_student: Mechatronics engineer student at <a href='https://www5.usp.br/'>University of São Paulo</a>
