@@ -15,8 +15,9 @@
 ```javascript
 const maria = {
   pronouns: "she" | "her",
-  code: [Python, C/C++, SQL, JavaScript, HTML/CSS, R, MATLAB, VBA, PHP],
-  tools: [Jupyter Notebooks, Git, Microsoft Office, Power BI, Docker]
+  code: [C++, Python, VBA, JavaScript,  MATLAB, SQL],
+  tools: [ Microsoft SQL Server, CloudWatch, GCP Kubernetes, AWS, ROS, GitHub, GitLab, Jupyter Notebooks, Docker],
+  libraries_and_frameworks: [JQuery, React, TerraForm, FastAPI, Falcon, PyTorch, OpenCV, YOLOv4, Pandas, Numpy, ScraPy, Enelvo]
 }
 ```
 
@@ -26,8 +27,6 @@ I am a mechatronics engineering student with a passion for data science, AI and 
 
 
 - :woman_student: Mechatronics engineer student at <a href='https://www5.usp.br/'>University of São Paulo</a>
-- :zap: Developer and researcher at <a href='https://www.instagram.com/turing.usp/?hl=pt'>Turing USP</a>
-- :telescope: My focus is to develop my knowledge in quantitative finances and NLP
 - :mailbox: <a href='mailto:mariarezende1313@gmail.com'>Reach me!</a>
   
 
@@ -45,55 +44,73 @@ I am a mechatronics engineering student with a passion for data science, AI and 
 
 -----
 ## <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="30"> Experience
+
 ### **BTG Pactual (January 2022 – April 2022)**
-*Summer Intern in Operations - Change the bank*
+*Summer Intern*
 
-- Developed a web application from a VBA system.
-- Implemented a website including front end (Bootstrap, JavaScript, JQuery), back end (Flask) and database storage
-system (Microsoft SQL Server)
+- Developed web applications by reinterpreting VBA systems, using Microsoft SQL Server for database management.
+- Collaborated in front-end development, utilizing technologies like Bootstrap, JavaScript, and JQuery to enhance the user experience.
+- Contributed to back-end development, using Python with the Flask framework to create dynamic functionalities and interactions in the web
+application.
 
+### **QI Tech (November 2022 – May 2023)**
+*Software Engineering Intern*
+
+- Developed the internal Open Finance system, covering registration data and payments, using APIs with FastAPI and Falcon frameworks,
+monitoring APIs with CloudWatch and GCP Kubernetes, and deploying on AWS infrastructure using TerraForm scripts.
+- Implemented the consent management system with a web interface created in React.
+- Researched the use of Open Finance data for credit analysis algorithms and fraud detection.
 
 ## <img src="https://media.giphy.com/media/MB75OzWrpUMOWfBHg0/giphy.gif" width="30"> Education
 
 ### **Polytechnic School of the University of Sao Paulo (POLI-USP) (February 2020 – Present)**
-*Mechatronics Engineering*
+*Bachelor of Mechatronic Engineering*
 
 
 ### **ITB Profª Maria Sylvia Chaluppe Mello (January 2017 – December 2019)**
 
-*Web Development technical course*
+*Technical Course in Informatics and Systems Development*
 
 ## <img src="https://media.giphy.com/media/g01P1Z9IjHtsf5TjQm/giphy.gif" width="30"> Research Experience & Activities
 
-### **Turing USP (May 2022 – Present)**
-*Research in quantitative finance and NLP*
+### **Turing USP (May 2022 – July 2023)**
+*Artificial Intelligence Student*
 
-- Analized a literature corpus using Word2Vec and BERT
-- Developed a trading robot which predicts stock prices by analyzing qualitative data from news and foruns
-- Participated in a project to explore the tweets of the presidential candidates
-- Organized financial market internal classes
-- Produced courseware about RNNs
+- Analyzed and processed data using Jupyter Notebooks and Python.
+- Utilized Word2Vec and BERT models for sentiment analysis.
+- Used PyTorch to develop functions that calculate similarity based on Euclidean distance and cosine similarity.
+- Connected to Reddit’s API to extract user comments in posts, cleaned and analyzed the data, integrating the Enelvo library to clean slangs and
+filter relevant posts.
+- Collected news from Brazilian magazines using ScraPy framework.
+- Conducted quantitative analysis of stock data using libraries like Pandas and Numpy.
+- Developed LSTM Neural Networks.
 
 ### **ThundeRatz robotics team (September 2020 – December 2021)**
-*Member of the computer science area*
+*Software Engineer*
 
-- Programmed a RSS2D simulated team, which tries to copy real soccer players’ decisions. Implemented reinforcement
-learning and neural networks in decision systems through data extracted from the games.
-- Developed a Trekking/Magellan autonomous robot that avoid obstacles and has a target point by using control
-algorithms and computer vision (YOLO).
+- Developed a C++ simulation to replicate soccer players’ decision-making.
+- Extracted and cleaned match data using Python scripts.
+- Analyzed data using statistical concepts to improve decision-making algorithms and behaviors.
+- Used extracted data to feed a neural network algorithm in C++, aiming for improvements in certain behaviors.
+- Developed a robot capable of autonomous movement to avoid obstacles and reach points of interest.
+- Implemented control algorithms (PID) in C++ to assist trajectory following and simulations in ROS.
+- Utilized computer vision to locate a point of interest, using the YOLO v4 computer vision model and manipulating the model using PyTorch.
+- Created a dataset and applied Data Augmentation techniques to enhance the algorithm’s quality using Python scripts and the OpenCV library
 
-### **LDC - Dynamics and Control Lab (November 2020 – August 2022)**
-*Research in Control*
+### **EPUSP Control Laboratory (LDC) (November 2020 – August 2022)**
+*Undergraduate Researcher*
 
-- Designed a formation control algorithm for unmanned ground vehicles
-- Performed simulations through MATLAB
+- Developed a control algorithm to enable the formation and coordinated movement of autonomous vehicles in a group.
+- Implemented and adjusted the algorithm to ensure the correct functioning of the formation system.
+- Conducted simulations using MATLAB software to test and validate the algorithm’s performance in different scenarios.
+- Analyzed simulation results to optimize and improve the control algorithm.
 
 ### **Department of Mechanical and Mechatronics Engineering (POLI-USP) (March 2021 – July 2021)**
-*Tutor for Intro to Mechatronics*
+*Teaching Assistant for Introduction to Mechatronic Engineering*
 
-- Built simulation enviroment for line follower robot
-- Produced courseware about Git, Docker and ROS
-- Guided course students through the realization of the robot project
+- Developed a simulation environment for a line-following vehicle in ROS (Robot Operating System).
+- Created educational material on Git, Docker, and ROS.
+- Mentored students during the execution of the project proposed by the teaching team.
 
 ##  <img src="https://media.giphy.com/media/dxIWYNNVCxFXdP76XE/giphy.gif" width="30"> Acknowledgments
 
@@ -104,6 +121,3 @@ algorithms and computer vision (YOLO).
 - IDC  ROBOCON - 
 Contest participation
 
-
-
-![Snake animation](https://github.com/mariarezende07/mariarezende07/blob/output/github-contribution-grid-snake.svg)
