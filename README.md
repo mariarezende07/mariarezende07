@@ -15,16 +15,25 @@
 ```javascript
 const maria = {
   pronouns: "she" | "her",
-  code: [C++, Python, VBA, JavaScript,  MATLAB, SQL],
-  tools: [ Microsoft SQL Server, CloudWatch, GCP Kubernetes, AWS, ROS, GitHub, GitLab, Jupyter Notebooks, Docker],
-  libraries_and_frameworks: [JQuery, React, TerraForm, FastAPI, Falcon, PyTorch, OpenCV, YOLOv4, Pandas, Numpy, ScraPy, Enelvo]
+  role: "Data Scientist",
+  interests: ["Machine Learning", "MLOps", "Cloud Infrastructure", "Data Engineering"],
+  code: ["Python", "Scala", "SQL", "C++", "JavaScript", "MATLAB"],
+  libraries_and_frameworks: [
+    "PyTorch", "Scikit-Learn", "LightGBM", "Pandas", "NumPy", "MLflow",
+    "FastAPI", "Falcon", "Terraform", "PySpark", "OpenCV", "SHAP"
+  ],
+  tools: [
+    "Databricks", "AWS", "GCP", "IBM Cloud", "Docker", "Airflow",
+    "Kubernetes", "Git", "Jupyter", "CloudWatch"
+  ]
 }
 ```
 
 ## Welcome to my Github profile
 
-I am a mechatronics engineering student with a passion for data science, AI and automation. 
+I’m a Mechatronics Engineering student at the University of São Paulo (POLI-USP) and currently an Associate Data Scientist at Nubank, where I build real-time machine learning models for fraud detection across Latin America.
 
+My work focuses on the end-to-end ML lifecycle — from data exploration and modeling to deployment, monitoring, and alert automation — using tools like Databricks, PySpark, MLflow, and AWS.
 
 - :woman_student: Mechatronics engineer student at <a href='https://www5.usp.br/'>University of São Paulo</a>
 - :mailbox: <a href='mailto:mariarezende1313@gmail.com'>Reach me!</a>
@@ -43,81 +52,101 @@ I am a mechatronics engineering student with a passion for data science, AI and 
 </div>
 
 -----
-## <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="30"> Experience
+## 🧠 Professional Experience
 
-### **BTG Pactual (January 2022 – April 2022)**
-*Summer Intern*
+### 🟣 **Nubank** — Associate Data Scientist *(July 2025 – Present)*
+As part of the **Fraud Data Science team**, I contribute to the design, development, and deployment of **real-time transactional fraud detection models** for **credit and debit card transactions** across **Brazil, Mexico, and Colombia**.  
+My work involves end-to-end ownership of the ML pipeline — from **feature engineering and dataset creation** to **model training, evaluation, deployment, and monitoring** — within a production environment operating at large scale.
 
-- Developed web applications by reinterpreting VBA systems, using Microsoft SQL Server for database management.
-- Collaborated in front-end development, utilizing technologies like Bootstrap, JavaScript, and JQuery to enhance the user experience.
-- Contributed to back-end development, using Python with the Flask framework to create dynamic functionalities and interactions in the web
-application.
+- Develop, validate, and maintain **real-time fraud detection models** that identify fraudulent behaviors in card transactions, using **Python, PySpark, and Scala** on **Databricks**.  
+- Design and implement **training, validation, and inference datasets**, integrating multiple data sources and ensuring reliability and temporal consistency across financial markets.  
+- Propose and implement a new **true-positive inference strategy** to improve the quality and accuracy of fraud labels, reducing false negatives and enhancing model retraining performance.  
+- Conduct extensive **feature exploration and statistical analysis**, identifying behavioral and transactional variables that improve detection precision and recall.  
+- Create and maintain **monitoring pipelines** and **automated alerting systems** in **Scala** using **Databricks Jobs**, tracking key metrics such as **feature drift, PR-AUC, AUC, KS, Gini, and SHAP explainability indicators**.  
+- Collaborate with cross-functional teams in **risk, engineering, and product**, transforming model insights into **business actions** and contributing to the optimization of fraud prevention strategies.  
+- Manage the **full MLOps lifecycle**, from experimentation to production, using **MLflow**, **Git/GitHub**, and **AWS** infrastructure for versioning, scalability, and reproducibility.  
 
-### **QI Tech (November 2022 – May 2023)**
-*Software Engineering Intern*
+---
 
-- Developed the internal Open Finance system, covering registration data and payments, using APIs with FastAPI and Falcon frameworks,
-monitoring APIs with CloudWatch and GCP Kubernetes, and deploying on AWS infrastructure using TerraForm scripts.
-- Implemented the consent management system with a web interface created in React.
-- Researched the use of Open Finance data for credit analysis algorithms and fraud detection.
+### 🟣 **Nubank** — Data Science Intern *(August 2024 – July 2025)*
+I joined the **Fraud Data Science team** focusing on **KYC (Know Your Customer) fraud models**, working on the creation and automation of real-time detection systems for identifying fraudulent users during onboarding and their first transactions.
 
-## <img src="https://media.giphy.com/media/MB75OzWrpUMOWfBHg0/giphy.gif" width="30"> Education
+- Supported the **development of LightGBM-based models** for KYC fraud detection, optimizing metrics such as **PR-AUC, Gini, and Precision/Recall** under severe class imbalance.  
+- Built and optimized **feature engineering pipelines**, leveraging **PySpark and Databricks notebooks** to handle large-scale event and behavioral datasets.  
+- Conducted **sub-sampling analyses** and **target encoding experiments** to enhance generalization and avoid bias in minority fraud classes.  
+- Implemented **model monitoring systems** for all production models, generating **weekly feature drift reports** and real-time dashboards tracking model health, interpretability, and drift behavior.  
+- Developed **alerting workflows** in **Scala** using **Databricks Jobs**, integrated with internal monitoring tools to automate anomaly detection and trigger retraining pipelines.  
+- Collaborated with senior data scientists and risk teams to align ML strategies with fraud operations, ensuring **regulatory compliance** and **business impact**.  
 
-### **Polytechnic School of the University of Sao Paulo (POLI-USP) (February 2020 – Present)**
-*Bachelor of Mechatronic Engineering*
+---
 
+### 🔵 **IBM** — Data Science Intern *(November 2023 – June 2024)*
+Worked in the **AI and Weather Intelligence team**, developing and deploying **foundation models and generative architectures** for meteorological prediction, simulation, and downscaling applications.  
 
-### **ITB Profª Maria Sylvia Chaluppe Mello (January 2017 – December 2019)**
+- Applied **foundation models specialized in meteorological forecasting** to generate **nowcasts, probabilistic risk scores, and refined climate signals** for enterprise clients.  
+- Created **semi-parametric statistical models** to simulate synthetic weather data, improving model training datasets and generalization across rare weather conditions.  
+- Implemented **Wasserstein Generative Adversarial Networks (WGANs)** for **spatial downscaling** of climate data, enhancing local forecast accuracy and resolution.  
+- Automated **data-science pipelines** using **IBM Cloud Functions, Object Storage, and Container Registry**, ensuring scalability and reliability in distributed environments.  
 
-*Technical Course in Informatics and Systems Development*
+---
 
-## <img src="https://media.giphy.com/media/g01P1Z9IjHtsf5TjQm/giphy.gif" width="30"> Research Experience & Activities
+### 🟢 **QI Tech** — Software Engineering Intern *(November 2022 – June 2023)*
+Contributed to the **Open Finance engineering team**, focusing on backend API development, system reliability, and applications of financial data to credit analysis and fraud modeling.
 
-### **Turing USP (May 2022 – July 2023)**
-*Artificial Intelligence Student*
+- Developed and maintained **Open Finance integration systems**, covering registration, payments, and user consent workflows via **FastAPI** and **Falcon** frameworks.  
+- Implemented **RESTful APIs** for high-availability microservices, integrating with internal systems and third-party financial data providers.  
+- Monitored and optimized API performance using **AWS CloudWatch**, **GCP Kubernetes**, and **centralized logging**, ensuring SLA compliance and service observability.  
+- Automated **infrastructure provisioning** and **deployment pipelines** with **Terraform** and **CI/CD**, reducing manual interventions and deployment times.  
+- Designed a **React-based web interface** for the **Consent Management System**, enabling secure user authorization and compliance with Open Finance regulations.  
+- Researched and prototyped **credit-risk scoring** and **fraud-detection algorithms** using **Python, Pandas, NumPy, and SQL**, contributing to the company’s data-driven decision systems.  
 
-- Analyzed and processed data using Jupyter Notebooks and Python.
-- Utilized Word2Vec and BERT models for sentiment analysis.
-- Used PyTorch to develop functions that calculate similarity based on Euclidean distance and cosine similarity.
-- Connected to Reddit’s API to extract user comments in posts, cleaned and analyzed the data, integrating the Enelvo library to clean slangs and
-filter relevant posts.
-- Collected news from Brazilian magazines using ScraPy framework.
-- Conducted quantitative analysis of stock data using libraries like Pandas and Numpy.
-- Developed LSTM Neural Networks.
+---
 
-### **ThundeRatz robotics team (September 2020 – December 2021)**
-*Software Engineer*
+### 🟠 **BTG Pactual** — Summer Intern, Change the Bank *(January 2022 – April 2022)*
+Joined the **Change the Bank program** to modernize and digitize internal banking tools, reengineering legacy applications into web-based systems.
 
-- Developed a C++ simulation to replicate soccer players’ decision-making.
-- Extracted and cleaned match data using Python scripts.
-- Analyzed data using statistical concepts to improve decision-making algorithms and behaviors.
-- Used extracted data to feed a neural network algorithm in C++, aiming for improvements in certain behaviors.
-- Developed a robot capable of autonomous movement to avoid obstacles and reach points of interest.
-- Implemented control algorithms (PID) in C++ to assist trajectory following and simulations in ROS.
-- Utilized computer vision to locate a point of interest, using the YOLO v4 computer vision model and manipulating the model using PyTorch.
-- Created a dataset and applied Data Augmentation techniques to enhance the algorithm’s quality using Python scripts and the OpenCV library
+- Migrated **VBA-based financial tools** into scalable **Python Flask web applications**, improving maintainability and execution time.  
+- Designed and implemented **relational database models and stored procedures** in **Microsoft SQL Server**, ensuring referential integrity and optimized queries for reporting.  
+- Developed **front-end interfaces** using **JavaScript (ES6)**, **Bootstrap**, and **jQuery**, enhancing UI performance and accessibility across internal teams.  
+- Built **RESTful APIs** to connect the new front-end with back-end systems, enabling dynamic interaction and faster data updates.  
+- Worked in an **Agile environment** using **Git, Jira**, and **code review workflows**, ensuring collaborative development and continuous integration readiness.  
 
-### **EPUSP Control Laboratory (LDC) (November 2020 – August 2022)**
-*Undergraduate Researcher*
+---
 
-- Developed a control algorithm to enable the formation and coordinated movement of autonomous vehicles in a group.
-- Implemented and adjusted the algorithm to ensure the correct functioning of the formation system.
-- Conducted simulations using MATLAB software to test and validate the algorithm’s performance in different scenarios.
-- Analyzed simulation results to optimize and improve the control algorithm.
+## 🎓 Education
+**Bachelor of Mechatronics Engineering**  
+[Polytechnic School – University of São Paulo (POLI-USP)](https://www5.usp.br/)  
+*(2020 – 2025)*
 
-### **Department of Mechanical and Mechatronics Engineering (POLI-USP) (March 2021 – July 2021)**
-*Teaching Assistant for Introduction to Mechatronic Engineering*
+---
 
-- Developed a simulation environment for a line-following vehicle in ROS (Robot Operating System).
-- Created educational material on Git, Docker, and ROS.
-- Mentored students during the execution of the project proposed by the teaching team.
+## 🧩 Research & Activities
+### **Turing USP Group**
+- NLP and sentiment analysis with **Word2Vec**, **BERT**, and **PyTorch**.  
+- Time-series modeling and stock market analysis using **Pandas** and **NumPy**.  
+- Built **LSTM neural networks** for sequence modeling.
 
-##  <img src="https://media.giphy.com/media/dxIWYNNVCxFXdP76XE/giphy.gif" width="30"> Acknowledgments
+### **ThunderRatz Robotics Team**
+- Implemented **C++ simulations** for robot soccer AI decision-making.  
+- Applied **YOLO + OpenCV** for object detection and **data augmentation** for CV training.  
 
-- Itau Asset challenge - 10th place with trading robot Nala
-- IRONCup 2021 - 1st place with ThunderLeague in RSS2D
-- IranOpen 2021 - 11th place with ThunderLeague in RSS2D
-- RoboCup 2021 - 14th place with ThunderLeague in RSS2D
-- IDC  ROBOCON - 
-Contest participation
+---
+
+## 🏆 Awards
+- 🥇 **IRONCup 2021** – 1st Place, RoboCup Simulation 2D  
+- 🥈 **Itaú Asset Challenge 2022** – 8th Place, Nala Trading Robot  
+- 🤖 **RoboCup 2021** – Global participation, ThunderLeague Team  
+
+---
+
+<div align="center">
+
+<a href="https://github.com/mariarezende07">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=mariarezende07&show_icons=true&theme=dracula&count_private=true"/>
+</a>
+<a href="https://github.com/mariarezende07">
+  <img height="150em" src="https://streak-stats.demolab.com?user=mariarezende07&theme=dracula"/>
+</a>
+
+</div>
 
